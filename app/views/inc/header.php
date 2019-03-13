@@ -15,7 +15,14 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a href="<?php echo RUTA_URL; ?>" class="navbar-brand">CRUD MVC-AMQ</a>
+                <a href=<?php echo RUTA_URL; ?>"" class="navbar-brand">CRUD MVC-AMQ</a>
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item float-right">
+                            <a href="pages/agregar" class="nav-link">Insertar</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
  
